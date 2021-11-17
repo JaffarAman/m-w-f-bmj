@@ -1,0 +1,39 @@
+/* h1{
+    background-color: ;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calcBox{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.inputBox{
+    width: 40%;
+    /* border: 1px solid orange; */
+}
+.inputBox input{
+    width: 100%;
+    padding: 8px;
+}
+.btnsBOx{
+    margin-top: 10px;
+    /* border: 2px solid purple; */
+    width: 40%;
+
+}
+.btnsBOx table{
+    width: 100%;
+}
+.btnsBOx table td{
+    padding: 5px;
+}

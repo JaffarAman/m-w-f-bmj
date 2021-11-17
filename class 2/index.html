@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <!-- <h1>JAVASCRIPT EVENTS</h1> -->
+
+            <!-- <button onclick="greet('Jaffar')"> -->
+                
+                <!-- ALERT</button> -->
+
+            <!-- <a href="javascript:void(0)" onclick="greet()" >GREET</a> -->
+
+
+            <!-- <button onmouseover="greet()" onmouseout="outEvent()" >
+                
+                GREET</button> -->
+
+
+                <!-- <button onclick="addition()"> ADD</button>
+                <button onclick="sub()">SUB</button>
+                <button onclick="mul()">MUL</button>
+                <button onclick="div()">DIV</button> -->
+
+
+                    <!-- <input type="text" 
+                    id="myinput"
+                    onfocus="input1(this)"
+                    onblur="input2(this)"
+                            
+                    > -->
+
+                    <!-- <input type="text" 
+                    id="myinput"
+                    -->
+                    <!-- > -->
+
+                    <!-- <button onclick="inputValue()">GET VALUE</button> -->
+                    <!-- <button onclick="inputValue()">VALUE</button> -->
+
+                        <h1>JAVASCRIPT Calculator</h1>
+
+                        <section class="calcBox">
+
+                            <div class="inputBox">
+                                <input type="text"
+                                 placeholder="Enter your values..."
+                                id="input1"
+                                 >
+                            </div>
+                            <div class="btnsBOx">
+
+                                <table border="1">
+                                    <tr>
+                                        <td onclick="allClear()">AC</td>
+                                        <td onclick="oneClear()">C</td>
+                                        <td onclick="getValue('/')">/</td>
+                                        <td onclick="getValue('%')">%</td>
+                                    </tr>
+                                    <tr>
+                                        <td onclick="getValue(7)">7</td>
+                                        <td onclick="getValue(8)">8</td>
+                                        <td onclick="getValue(9)">9</td>
+                                        <td onclick="getValue('+')">+</td>
+                                    </tr>
+                                    <tr>
+                                        <td onclick="getValue(4)">4</td>
+                                        <td onclick="getValue(5)">5</td>
+                                        <td onclick="getValue(6)">6</td>
+                                        <td onclick="getValue('-')">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td onclick="getValue(1)">1</td>
+                                        <td onclick="getValue(2)">2</td>
+                                        <td onclick="getValue(3)">3</td>
+                                        <td onclick="getValue('*')">*</td>
+                                    </tr>
+                                    <tr>
+                                        <td onclick="getValue(0)">0</td>
+                                        <td onclick="getValue('.')">.</td>
+                                        <td colspan="2" onclick="results()">=</td>
+                                        
+                                    </tr>
+                                </table>
+
+
+                            </div>
+                            
+                        </section>
+
+</body>
+<script src="app.js"></script>
+
+
+</html>
