@@ -1,0 +1,26 @@
+.hide{
+    display: none;
+    
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+.bigImg{
+    width: 400px;
+}
+
+.smallImg{
+    width: 200px;
+}
+
+.imagePIC{
+    border: 2px solid red;
+}
+
+.bulbImg{
+    border: 1px solid black;
+}
