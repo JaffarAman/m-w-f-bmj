@@ -1,0 +1,35 @@
+document.getElementById()
+document.getElementsByTagName()
+document.getElementsByClassName()
+
+///NODE///
+nodeType  (element type)
+nodeValue (element value)
+nodeName (element name)
+
+//Attributes//
+
+hasAttributes( attr-Name )   (check attr return true / false )
+
+getAttributes( attr-Name  )   ( return attr value)
+
+setAttributes( attr-Name , attr-value  )  ( set Attr in element )
+
+
+////create element (NODES) using JS
+createElement()
+
+createTextNode()
+
+element.appendChild(elementValue)
+
+
+
+
+
+
+
+
+
+
+
