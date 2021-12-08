@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+//   import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDy_RL0C07Y2ACedRr5ESTq_dKvwfHV7gY",
+    authDomain: "web-page-saylani.firebaseapp.com",
+    databaseURL: "https://web-page-saylani.firebaseio.com",
+    projectId: "web-page-saylani",
+    storageBucket: "web-page-saylani.appspot.com",
+    messagingSenderId: "526063753920",
+    appId: "1:526063753920:web:2e454c3244bb5def9aab25",
+    measurementId: "${config.measurementId}"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  ///database method///
+  import { getDatabase , ref,set,remove, } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js";
+  const db = getDatabase()
+  console.log(db)
+  set(ref( db , "/todos") , {
+      namee : "jaffar"
+  })
+  .then(()=>{
+      console.log("updae")
+  })
+  .catch(()=>{
+      console.log("error")
+  })
+//   const analytics = getAnalytics(app);
+</script>
+<body>
+    
+    <!-- <a href="#Section1">
+        target
+    </a>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, soluta fuga consequuntur ducimus, placeat nobis totam repellendus nulla voluptatum earum quo similique aperiam pariatur maxime expedita hic praesentium aspernatur nam laudantium vero tempora. Possimus accusamus nobis ducimus optio, maiores ex placeat rem perferendis, quaerat, exercitationem inventore hic quisquam. Sunt magnam voluptas maxime vero deleniti enim totam exercitationem, recusandae harum quasi animi tempore molestiae incidunt, consectetur dolorum vel modi iusto repellat natus omnis. Tenetur, officia necessitatibus! Ex totam sunt dolores! Perspiciatis at nihil vel quod velit error enim distinctio perferendis minima quaerat, voluptas reiciendis natus sit in. Expedita quaerat voluptatem inventore!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, soluta fuga consequuntur ducimus, placeat nobis totam repellendus nulla voluptatum earum quo similique aperiam pariatur maxime expedita hic praesentium aspernatur nam laudantium vero tempora. Possimus accusamus nobis ducimus optio, maiores ex placeat rem perferendis, quaerat, exercitationem inventore hic quisquam. Sunt magnam voluptas maxime vero deleniti enim totam exercitationem, recusandae harum quasi animi tempore molestiae incidunt, consectetur dolorum vel modi iusto repellat natus omnis. Tenetur, officia necessitatibus! Ex totam sunt dolores! Perspiciatis at nihil vel quod velit error enim distinctio perferendis minima quaerat, voluptas reiciendis natus sit in. Expedita quaerat voluptatem inventore!</p>
+    <p id="Section1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, soluta fuga consequuntur ducimus, placeat nobis totam repellendus nulla voluptatum earum quo similique aperiam pariatur maxime expedita hic praesentium aspernatur nam laudantium vero tempora. Possimus accusamus nobis ducimus optio, maiores ex placeat rem perferendis, quaerat, exercitationem inventore hic quisquam. Sunt magnam voluptas maxime vero deleniti enim totam exercitationem, recusandae harum quasi animi tempore molestiae incidunt, consectetur dolorum vel modi iusto repellat natus omnis. Tenetur, officia necessitatibus! Ex totam sunt dolores! Perspiciatis at nihil vel quod velit error enim distinctio perferendis minima quaerat, voluptas reiciendis natus sit in. Expedita quaerat voluptatem inventore!</p>
+ -->
+ <button id="btn" onclick="pages()">NEXT PAGE.</button>
+
+
+</body>
+<script src="app.js"></script>
+</html>
