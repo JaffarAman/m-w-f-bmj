@@ -1,0 +1,63 @@
+var quizQues = [
+    {
+        num : 1,
+        question : "HTML stand for",
+        option : {
+            a : "Hyper text markup Language",
+            b : "Hyper text programming Language",
+            c : "Hyper text styling Language",
+            d : "Hyper text scripting Language",
+        },
+        answer : "Hyper text markup Language" 
+    },
+    {
+        num : 2,
+        question : "Which type of JavaScript Languages is",
+        option : {
+            a : "Object-Oriented ",
+            b : "Object-Base",
+            c : "Assembly Languages",
+            d : "high Level",
+
+        },
+        answer :"Object-Base"
+    },
+    {
+        num : 3,
+        question : "The 'function' and  'var' are known as:",
+        option : {
+            a : "Keywords",
+            b : "Data types",
+            c : "Declaration statements",
+            d : "Prototypes",
+
+        },
+        answer : "Declaration statements"
+    }
+    ,
+    {
+        num : 4,
+        question : "who is the present president of pakistan",
+        option : {
+            a : "Arif Alvi",
+            b : "Imran Khan",
+            c : "Nawaz Sharif",
+            d : "Zardari",
+
+        },
+        answer : "Arif Alvi"
+    }
+    ,
+    {
+        num : 5,
+        question : "How many prayers in a day:",
+        option : {
+            a : "6",
+            b : "5",
+            c : "3",
+            d : "none",
+
+        },
+        answer : "5"
+    },
+]
