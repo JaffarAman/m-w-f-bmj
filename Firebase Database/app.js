@@ -1,11 +1,11 @@
 // const firebaseConfig = {
-//     apiKey: "AIzaSyCx3RlgP1v7ZpSHh9Y9w1gJXxUVxCKTR_0",
-//     authDomain: "mwfdatabase.firebaseapp.com",
-//     databaseURL: "https://mwfdatabase-default-rtdb.firebaseio.com",
-//     projectId: "mwfdatabase",
-//     storageBucket: "mwfdatabase.appspot.com",
-//     messagingSenderId: "528131022246",
-//     appId: "1:528131022246:web:e0cad20ad7eea3a38f0367"
+//     apiKey: "",
+//     authDomain: "",
+//     databaseURL: "",
+//     projectId: "",
+//     storageBucket: "",
+//     messagingSenderId: "",
+//     appId: ""
 // };
 // const app = firebase.initializeApp(firebaseConfig);
 
